@@ -1,0 +1,9 @@
+fastapi
+uvicorn[standard]
+opencv-python
+mediapipe
+numpy<2
+librosa
+soundfile
+tensorflow
+tensorflow_hub
