@@ -3,7 +3,7 @@ from fastapi import FastAPI
 from fastapi.responses import JSONResponse
 from fastapi.middleware.cors import CORSMiddleware
 import logging, traceback
-from .utils import now_ts
+from utils import now_ts
 from .constants import FALLBACK
 from .sensors import MotionDetector, PostureDetector, classify_cry_simple
 from .fusion import fuse
